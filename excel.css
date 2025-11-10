@@ -1,0 +1,381 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Fundo claro para o corpo */
+    color: #333;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h2, h3 {
+    color: #1a73e8; /* Cor azul inspirada no Excel */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Seção 1 - Apresentação do Curso */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.p1 {
+    line-height: 1.8; /* Aumenta o espaçamento entre linhas para melhor leitura */
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: 1.15em; /* Aumenta o tamanho da fonte */
+    font-weight: 500; /* Deixa o texto um pouco mais encorpado */
+}
+
+.p1 span {
+    font-size: 1.9em; 
+    font-weight: bold;
+    color: #000000;
+}
+
+.p2 {
+    font-style: italic;
+    margin-top: 25px;
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    font-weight: 400;
+    color: #555;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.p2 {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.button1, section6 button {
+    background-color: #1a73e8; /* Azul primário */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.button1:hover, section6 button:hover {
+    background-color: #1558b3;
+}
+
+/* Seção 2 - Indicado para Quem Quer (Tópicos do Curso) */
+.p3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.div1 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #afe5f0;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.div2 {
+    flex-basis: 30%; /* Três colunas em telas maiores */
+    margin: 10px;
+    padding: 20px;
+    background-color: #bfe6ef;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-width: 250px; /* Garante que não fique muito estreito */
+}
+
+.div2 strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #000;
+}
+
+.div2 figure img {
+    width: 80px; /* Ajuste o tamanho das imagens/ícones */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Seção 3 - Sobre o Autor e Tela Inicial */
+.section3 {
+    text-align: center;
+    background-color: #b8d5e3; /* Fundo levemente diferente */
+}
+
+/* NOVO: Container Flex para Imagem e Texto do Autor */
+.author-details {
+    display: flex; /* Habilita o Flexbox */
+    align-items: flex-start; /* Alinha a imagem e o texto no topo */
+    text-align: left; /* Garante que o texto fique justificado/alinhado à esquerda */
+    max-width: 900px; /* Limita a largura do container para que a imagem não fique muito longe do texto */
+    margin: 0 auto 30px auto; /* Centraliza e adiciona margem abaixo */
+}
+
+/* NOVO: Container para o Texto do Autor */
+.author-text-container {
+    flex-grow: 1; /* Permite que o container de texto ocupe o espaço restante */
+    padding-left: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.span2 {
+    /* display: block; REMOVIDO */
+    margin-bottom: 0; /* Ajustado para Flexbox */
+}
+
+.img2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1a73e8;
+}
+
+.p5 {
+    line-height: 1.6;
+    margin: 0 0 15px 0; /* Ajustado para Flexbox */
+    max-width: none; /* Ajustado para Flexbox */
+    text-align: left; /* Alinha o texto à esquerda, ao lado da imagem */
+}
+
+mark {
+    background-color: #c9e2ff; /* Destaque suave */
+    padding: 2px 4px;
+}
+
+.p6 {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.img3 {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+/* Seção 4 - Por Dentro do Excel (Lista de Funções/Tópicos) */
+.section4 {
+    text-align: left;
+}
+
+.p7 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+.section4 ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section4 ul p {
+    font-weight: bold;
+    color: #333;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.li1, .section4 ul li {
+    flex-basis: 48%; /* Duas colunas */
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.li1::before, .section4 ul li::before {
+    content: "•"; /* Usa um ponto como marcador */
+    color: #1a73e8;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}
+
+/* Ajuste para as listas que não são .li1 (os outros tópicos) */
+.section4 ul li:not(.li1) {
+    flex-basis: 100%; /* Uma coluna */
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Seção 5 e 6 - Garantia e Preço */
+.section5 {
+    background-color: #e6f0ff; /* Fundo mais claro para destaque */
+    padding: 40px 20px;
+}
+
+.img4 {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.p8 {
+    font-size: 2em;
+    font-weight: 900;
+    color: #28a745; /* Verde para garantia */
+    margin-bottom: 20px;
+}
+
+.p9 {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section6 {
+    background-color: #fff;
+    padding: 30px;
+    border-top: 5px solid #1a73e8;
+}
+
+.p10 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.p10 s {
+    color: #666;
+    text-decoration: line-through;
+}
+
+.p11 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #1a73e8;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.mark2 {
+    background-color: transparent;
+    color: #1a73e8;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+.bk{
+    background-color: #1a73e8; /* Azul primário */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+ .bk:hover {
+    background-color: #1558b3;
+}
+
+/* Responsividade - Ajustes para telas menores */
+@media (max-width: 768px) {
+    /* Ajuste para o autor em telas pequenas: empilha a imagem e o texto */
+    .author-details {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .author-text-container {
+        padding-left: 0; /* Remove padding lateral quando empilhado */
+        margin-top: 20px;
+    }
+    
+    .p5 {
+        text-align: center; /* Centraliza o texto quando empilhado */
+    }
+
+    .section2 {
+        flex-direction: column;
+    }
+
+    .div2 {
+        flex-basis: 100%;
+        margin: 10px 0;
+    }
+
+    .section4 ul {
+        flex-direction: column;
+    }
+
+    .li1 {
+        flex-basis: 100%;
+    }
+}
